@@ -56,10 +56,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\s2t.txt" />
+    <None Include="Resources\s2t.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\v2t.txt" />
+    <None Include="Resources\v2t.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
