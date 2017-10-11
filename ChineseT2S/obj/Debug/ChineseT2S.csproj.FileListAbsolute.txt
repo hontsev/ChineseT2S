@@ -1,0 +1,6 @@
+D:\CProjects\ChineseT2S\ChineseT2S\bin\Debug\ChineseT2S.dll
+D:\CProjects\ChineseT2S\ChineseT2S\bin\Debug\ChineseT2S.pdb
+D:\CProjects\ChineseT2S\ChineseT2S\obj\Debug\ChineseT2S.dll
+D:\CProjects\ChineseT2S\ChineseT2S\obj\Debug\ChineseT2S.pdb
+D:\CProjects\ChineseT2S\ChineseT2S\obj\Debug\ChineseT2S.Properties.Resources.resources
+D:\CProjects\ChineseT2S\ChineseT2S\obj\Debug\ChineseT2S.csproj.GenerateResource.Cache
