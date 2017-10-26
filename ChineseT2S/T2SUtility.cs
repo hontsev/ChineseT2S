@@ -31,13 +31,13 @@ namespace ChineseT2S
                         changepairs[pair[1]] = pair[0];
                     }
                 }
-                string tmp = "";
+                StringBuilder tmp = new StringBuilder(res.Length);
                 foreach (var c in res)
                 {
-                    if (changepairs.ContainsKey(c.ToString())) tmp += changepairs[c.ToString()];
-                    else tmp += c;
+                    if (changepairs.ContainsKey(c.ToString())) tmp.Append( changepairs[c.ToString()]);
+                    else tmp.Append(c);
                 }
-                res = tmp;
+                res = tmp.ToString();
             }
             catch(Exception e)
             {
@@ -68,13 +68,13 @@ namespace ChineseT2S
                         changepairs[pair[1]] = pair[0];
                     }
                 }
-                string tmp = "";
+                StringBuilder tmp = new StringBuilder(res.Length);
                 foreach (var c in res)
                 {
-                    if (changepairs.ContainsKey(c.ToString())) tmp += changepairs[c.ToString()];
-                    else tmp += c;
+                    if (changepairs.ContainsKey(c.ToString())) tmp.Append( changepairs[c.ToString()]);
+                    else tmp.Append( c);
                 }
-                res = tmp;
+                res = tmp.ToString();
             }
             catch (Exception e)
             {
