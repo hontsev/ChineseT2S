@@ -3,3 +3,5 @@
 /ChineseT2S/obj
 /TestForm/bin/Debug
 /TestForm/obj
+/ChineseT2S/*.csproj
+/TestForm/*.csproj
